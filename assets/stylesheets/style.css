@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(10, 10, 10, 0.2);
+    padding:15px 0;
+}
+
+.nav .left{
+    display: flex;
+    align-items: center;
+}
+
+.nav .right{
+    display: flex;
+    align-items: center ;
+    gap: 20px;
+}
+
+.nav img{
+    width: 55px;
+    height: 55px;
+    padding-left: 38px;
+ 
+}
+.nav a{
+    padding-left: 30px;
+    padding-top: 0px;
+    position: relative;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 14PX;
+
+}
+.button1{
+    position: relative;
+    background: none;
+    border-radius: 16px;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+.button2{
+    color: white;
+    position: relative;
+    background-color: black;
+    border-radius: 16px;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.egift{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+
+.egift1{
+    height: 400px;
+    background-color: #f4c5a1;
+}
+.egift2{
+    height: 548px;
+    background-color: #96b2e1;
+}
+.egift3{
+    height: 400px;
+    background-color: #8b323e;
+}
+.egift4{
+    height: 400px;
+    background-color: #3d7170;
+}
+.egift5{
+    height: 160px;
+    background-color: #d4e9e2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.egift6{
+    height: 80px;
+    background-color: none;
+    text-align: center;
+}
+.egift7{
+    height: 400px;
+    background-color: #f4c5a1;
+}
+
+
+.left-section{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.left-section h1,
+.left-section h4,
+.left-section button{
+    margin: 10px 0;
+}
+
+.right-section{
+    width: 50%;
+    float: left;
+  
+}
+.button3{
+    position: relative;
+    background: none;
+    border-radius: 16px;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+
+.whitespace{
+    height: 35px;
+    background-color: white;
+}
+
+.egift5 h1{
+    text-align: center;
+}
+
+footer{
+    display: grid;
+    margin: 0 70px;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.footer{
+    display: grid;
+    justify-content: center;
+}
+
+.footer ul li a{
+    color: rgba(0,0,0,.58);
+}
+
+.footer ul li{
+    margin-bottom: 20px;
+}
+
+.footer h2{
+    margin-bottom: 40px;
+}
+
+
+.egift3 .left-section h1,
+.egift3 .left-section h4,
+.egift3 .left-section .button3{
+   color: white;
+}
+
+.egift3 .left-section .button3{
+    border-color: white;
+}
+.egift4 .left-section h1,
+.egift4 .left-section h4,
+.egift4 .left-section .button3{
+   color: white;
+}
+
+.egift4 .left-section .button3{
+    border-color: white;
+}
+
+.left-section h1{
+    margin-bottom: 25px;
+}
+
+.bottom{
+    margin: 16px 70px;
+}
+
+.bottom ul{
+    display: flex;
+    gap: 16px;
+}
+
+
+
+.bottom ul li a{
+    background-color: black;
+    color: white;
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+.last2 ul{
+    display:flex;
+    justify-content: space-around;
+    padding: 20px 0 20px;
+}
+
+.last-line{
+    padding: 10px 0 10px 56px;
+}
+
